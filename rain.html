@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rainy-anime</title>
+   <!-- <link rel="stylesheet" href="rain.css">-->
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/anne.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: contrast(180%);
+    position: relative;
+}
+
+.rain{
+    height: 100vh;
+    background: url(rain4.png);
+    animation: rain .3s linear infinite;
+
+}
+
+
+@keyframes rain
+{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    body{
+        background-size: 800px;
+    }
+    .rain{
+        height: 600px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div class="rain">
+        
+    </div>
+
+      
+        
+    </script>
+</body>
+</html>
